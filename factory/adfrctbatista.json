@@ -1,0 +1,9 @@
+{
+	"name": "adfrctbatista",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e541517a-dbd0-4024-9117-95b7cdd73a3f",
+		"tenantId": "385a1b4a-27ac-4b30-b804-90a1a446064b"
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"name": "fileTrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopiaCsvParaSql",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/data/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/e46613fe-5856-4350-8581-9ca34101fd09/resourceGroups/cloud-shell-storage-eastus/providers/Microsoft.Storage/storageAccounts/trilha3rctbatista",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
